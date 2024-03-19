@@ -39,10 +39,16 @@ int main(){
 	printf("\nTerceira Nota: %.1f", notaTri);
 	printf("\nQuarta Nota: %.1f", notaQua);
 	
-    printf("\nMédia: %.3f", media);
+    printf("\nMÃ©dia: %.3f", media);
+    
+    if(media > 7.0){
+    	printf("\nAluno aprovado(a)!");
+
+	}else{
+		
+		printf("\nAluno reprovado(a)!");
+	}
     
     return 0; 
     
-
-	
 }
